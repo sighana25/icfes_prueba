@@ -31,7 +31,7 @@ st.text('OBJETIVO:')
 
 st.header('Estadísticos')
 
-DF = pd.read_csv("..Data_Base_1419.csv")
+DF = pd.read_csv("Data_Base_1419.csv")
 
 
 st.text("promedios de conexión a internet, computador, y pertenencia a etnia")
@@ -113,7 +113,7 @@ st.caption('Mapa de Colombia con división política con puntajes')
 
 #data para hacer el mapa
 
-data_geo = gpd.read_file("..MunicipiosVeredas19MB.json")
+data_geo = gpd.read_file("MunicipiosVeredas19MB.json")
 data_geo.index=map(lambda p : str(p),data_geo.index)
 #f = open("/Users/luzadrianamejiacastano/Dropbox/materias/dataviz/MunicipiosVeredas19MB.json")
 #geojson = json.load(f)
