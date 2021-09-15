@@ -4,5 +4,4 @@ altair
 plotly
 plotly.express
 geopandas
-plotly.graph_objects
 plotly.figure_factory
