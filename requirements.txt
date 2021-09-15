@@ -1,6 +1,7 @@
 streamlit
 pandas
 altair
+plotly
 plotly.express
 geopandas
 plotly.graph_objects
